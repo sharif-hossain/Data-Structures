@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1610068172 source:f:\cpp\balancedparantheses\main.cpp
+	<iostream>
+	<stack>
+	<string>
+

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1492856699 source:h:\others\my all programs\c++\tree\main.cpp
+	<iostream>
+
+1609238077 source:f:\cpp\ds\tree_2\main.cpp
+	<stdio.h>
+	<iostream>
+	<process.h>
+	<ctype.h>
+

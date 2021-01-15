@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1609848294 source:f:\cpp\postfixevaluation\main.cpp
+	<iostream>
+	<stack>
+	<string>
+	<cstdio>
+

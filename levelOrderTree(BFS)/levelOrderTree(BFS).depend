@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1609326776 source:f:\cpp\levelordertree(bfs)\main.c
+	<stdio.h>
+	<stdlib.h>
+

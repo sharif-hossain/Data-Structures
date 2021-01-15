@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1610024142 source:f:\cpp\aaaaaa\main.cpp
+	<iostream>
+	<stack>
+	<string>
+
+1610024991 source:f:\cpp\postfixalternate\main.cpp
+	<iostream>
+	<stack>
+	<string>
+

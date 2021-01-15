@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1488177967 source:c:\users\dell\desktop\manik\l2\main.cpp
+	<iostream>
+	<stdio.h>
+	<string>
+

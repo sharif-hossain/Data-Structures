@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1609326015 source:f:\cpp\depthfirst(pre_in_post)\main.cpp
+	<iostream>
+	<queue>
+

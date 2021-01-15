@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1609933965 source:f:\cpp\postfixlinkedlist\main.cpp
+	<iostream>
+	<conio.h>
+	<string.h>
+
