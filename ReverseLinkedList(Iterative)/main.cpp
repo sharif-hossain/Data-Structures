@@ -1,14 +1,11 @@
 #include <iostream>
 
 using namespace std;
-
 struct Node
 {
-
     int data;
     Node* next;
 };
-
 Node* head = NULL;
 
 void Insert(int x, int n)
@@ -32,24 +29,43 @@ void Insert(int x, int n)
     temp2->next = temp1;
 }
 
+void Reverse()
+{
+    Node *current, *prev, *next;
+    current = head;
+    prev = NULL;
+    while(current != NULL)
+    {
+        next = current->next;
+        current->next = prev;
+        prev = current;
+        current = next;
+    }
+    head = prev;
+}
 void Print()
 {
     Node* temp = head;
-    while(temp != NULL)
+    while(temp!= NULL)
     {
         cout << temp->data << " ";
         temp = temp->next;
     }
-    cout << "\n";
 }
-
 int main()
 {
-    Insert(2,1);
-    Insert(3,2);
+    int n;
+
     Insert(4,1);
-    Insert(5,2);
-    Insert(7,4);
+    Insert(5,1);
+    Insert(7,2);
+    Insert(9,3);
+    Insert(1,1);
+    Insert(3,2);
+    Print();
+    cout << endl;
+
+    Reverse();
     Print();
     return 0;
 }
